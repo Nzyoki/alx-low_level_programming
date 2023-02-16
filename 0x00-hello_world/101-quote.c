@@ -1,9 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+/**
+ * main - prints a statement to stderr
+ *
+ * Return: 1
+ */
 int main(void)
 {
-    int x = 0;
-    fprintf(stderr, "\"And that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-    x += 1;  // Warning: Unused variable 'x'
-    return 1;
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	return (1);
 }
