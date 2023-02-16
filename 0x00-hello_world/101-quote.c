@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <unistd.h>
 
-
 /**
- * main - Prints a statement to the standard error
+ * main -  entry of this program
  *
- * Return: 1
+ * Return: Return 1
  */
 int main(void)
 {
-	fprintf(stderr, "\"And that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return (1);
+	char mS = "and that iece of art is useful\n" -Dora Korpar, 2015-10-19\n";
+	write(2, mS, 59);
+	return(1);
 }
