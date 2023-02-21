@@ -1,6 +1,9 @@
+int_putchar(char c);
+
+#endif /*MAIN_H*/
 #include<stdio.h>
 #include<main.h>
-#include<_putchar>
+#include"_putchar"
 
 
 /**
