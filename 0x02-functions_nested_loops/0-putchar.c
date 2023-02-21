@@ -1,11 +1,4 @@
-int_putchar.c;
-
-#endif /*MAIN_H*/
-#include<stdio.h>
 #include<main.h>
-#include"_putchar"
-
-
 /**
  * main - Prints _putchar , followed by a new line.
  *
