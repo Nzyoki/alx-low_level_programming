@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#include<main.h>
-=======
 #include "main.h"
->>>>>>> 0526332db606f80999e436c8503c0b93364254df
 /**
  * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
  */
