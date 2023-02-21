@@ -1,4 +1,4 @@
-int_putchar(char c);
+int_putchar.c;
 
 #endif /*MAIN_H*/
 #include<stdio.h>
