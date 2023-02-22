@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * 8-24_hours.c - main entry
+ * jack_bauer - Entry point
  *Description:  prints every minute of the day of Jack Bauer
  */
 void jack_bauer(void)
