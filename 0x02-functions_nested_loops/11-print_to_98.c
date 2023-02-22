@@ -1,6 +1,7 @@
 #include "main.h"
 #include<stdio.h>
-/** print_to_98 - print all integers from input to 98
+/**
+ * print_to_98 - print all integers from input to 98
  * @n: the first number
  */
 void print_to_98(int n)
