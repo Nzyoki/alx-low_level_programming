@@ -1,10 +1,11 @@
 #include"main.h"
 /**
+ * 8-24_hours.c - main entry
  *Description:  prints every minute of the day of Jack Bauer
  */
 void jack_bauer(void)
 {
-	int i,j ;
+	int i,j;
 
 	i = 0;
 
