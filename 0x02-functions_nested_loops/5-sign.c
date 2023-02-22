@@ -1,13 +1,9 @@
 #include "main.h"
 /**
- * print_sign - main function
- *
- * @n: character to compare
- *
- * Return: 1 if positive, 0 if zero, -1 if negative
- *
+ * print_sign -prints sign of number
+ * @n: no of signs
+ * Return: 1 if greater than zero and 0 if no is zero and -1 if is less than zero
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -15,11 +11,15 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
-		_putchar('0');
+		_putchar('0);
 		return (0);
 	}
-	_putchar('-');
-	return (-1);
-i}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
+}
+
